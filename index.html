@@ -8,14 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header class=" text-bg-dark">
+    <header class="main_background">
         <div class="container">
             <div class="row">
                 <div class="col-4">
                     <img src="images/header_star.png" alt="star-picture" width="350px">
                 </div>
                 <div class="col-4 d-flex align-items-center">
-                    <h1 class="fs-1 fw-bold">DWWM 48 AWARDS</h1>
+                    <h1 class="fs-1 fw-bold text-light">DWWM 48 AWARDS</h1>
                 </div>
                 <div class="col-4">
                     <img src="images/header_star.png" alt="star-picture" width="350px">
@@ -25,34 +25,82 @@
         <nav class="nav justify-content-evenly nav_background_color">
             <a class="nav-item nav-link link-body-emphasis" href="#">Présentation</a>
             <a class="nav-item nav-link link-body-emphasis" href="#">Candidats</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">L'évenement</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Inscription</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#affiche">L'évenement</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#bouton_inscription">Inscription</a>
             <a class="nav-item nav-link link-body-emphasis" href="#">Compte à rebours</a>
             <a class="nav-item nav-link link-body-emphasis" href="#">Voter</a>
         </nav>
     </header>
-    <section>
+
+
+    <section class="section_1">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <h1 class="fs-1 fw-bold text-body-emphasis">Présentation</h1>
+                <div id="affiche" class="col-6 affiche">
+                        <span class="fs-1 fw-bold text-dark">DWWM 48 AWARDS</span>
+                        <img src="images/coupe.png" alt="coupe_vainqueur" width="150px" class="my-4"/>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="fw-bold">Mercredi 12 juin 2024</p>
+                            <p class="fw-bold">Adresse Agustin</p>
+                        </div>
                 </div>
-                <div class="col-6">
-                    <p class="text-body-emphasis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-6 inscription">
+                    <h3>Mercredi 12 juin 2024</h3>
+                    <span>Date d'échéance des inscriptions : 5 juin</span>
+                    <span>Chez Agustin !</span>
+                    <span>10€, amener à boire ou à manger</span>
+                    <form>
+                        <input type="text" name="nom_inscrit">
+                        <button id="bouton_inscription">S'inscrire</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <footer class="text-bg-dark">
+    <section class="container">
+        <div class="presentation">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="text-danger">L'évenement de la remise des prix de l'édition 2024 est lancée !</h3>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="w-75">La promotion de développeur web se réunit le XX Juin 2024 (soirée de fin d’année 🡺
+                        20/06 ?) pour célébrer les talents et les réalisations exceptionnels de ses membres.
+                        Cette cérémonie de remise de trophées est l’occasion de reconnaître l’engagement, la passion et la
+                        créativité tout au long de l’année et le parcours accomplit par les étudiants dans le domaine du
+                        développement web.
+                        Au-delà des compétences techniques, l’esprit de collaboration, d’innovation et de résilience a été
+                        cultivé.
+                        Les étudiants qui se sont distingués seront honorés de leurs contributions variées dans la
+                        participation aux différents projets et l’enrichissement de la promotion.
+                        Le processus de vote souligne l’esprit de communauté et la diversité des talents au sein de la
+                        cohorte.
+                        Cette cérémonie est un témoignage du rôle transformateur de la technologie et de la capacité
+                        collective à influencer l’avenir à travers le développement web. Elle vise à encourager la poursuite
+                        de l’innovation et de la passion pour le codage.
+                        Félicitations aux futurs nominés et remerciements à tous pour votre
+                        contribution à la communauté des développeurs web. Ensemble, ils
+                        façonnent l’avenir du web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main_background">
         <div class="container">
             <div class="row">
                 <div class="col-6 d-flex align-items-center">
-                    <h3 class="fs-1 fw-bold">Team Alpha</h3>
+                    <h3 class="fs-1 fw-bold text-light">Team Alpha</h3>
                 </div>
-                <div class="col-6 d-flex flex-row align-items-center">
-                    <span class="fs-2">Powered by</span>
+                <div class="col-6 d-flex flex-row align-items-center justify-content-end">
+                    <span class="fs-2 text-light">Powered by</span>
                     <img src="images/carte_noire.jpg" alt="carte-noire" width="150px" class="img_carte_noire"/>
                 </div>
             </div>

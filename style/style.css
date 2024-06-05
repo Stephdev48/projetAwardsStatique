@@ -10,3 +10,36 @@ a {
 .img_carte_noire{
     margin-left: 30px;
 }
+
+.main_background{
+    background-color: black;
+}
+
+.affiche{
+    background-color: #EEECE1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.affiche span{
+    text-align: center;
+}
+
+.affiche img{
+    margin: auto;
+}
+
+.section_1{
+    margin-top: 150px;
+}
+
+.inscription{
+    background-color: #584641;
+}
+
+.presentation{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
