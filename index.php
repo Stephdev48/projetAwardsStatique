@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<<<<<<< Updated upstream:index.php
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-    <title>Document</title>
-=======
     <link href="style/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +12,19 @@
     <!-- Version 1.10: Icons Bootstrap included in HTML head -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <title>DW/WM AWARDS 2024</title>
->>>>>>> Stashed changes:index.html
 </head>
 <body>
     <header class="main_background">
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <img src="images/header_star.png" alt="star-picture" width="350px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
                 </div>
                 <div class="col-4 d-flex align-items-center">
                     <h1 class="fs-1 fw-bold text-light">DWWM 48 AWARDS</h1>
                 </div>
                 <div class="col-4">
-                    <img src="images/header_star.png" alt="star-picture" width="350px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
                 </div>
             </div>
         </div>
@@ -48,7 +44,7 @@
             <div class="row">
                 <div id="affiche" class="col-5 affiche">
                         <span class="fs-1 fw-bold text-dark">DWWM 48 AWARDS</span>
-                        <img src="images/coupe.png" alt="coupe_vainqueur" width="150px" class="my-4"/>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/coupe.png" alt="coupe_vainqueur" width="150px" class="my-4"/>
                         <div class="d-flex flex-row justify-content-between">
                             <p class="fw-bold">Mercredi 12 juin 2024</p>
                             <p class="fw-bold">6 impasse du Général Éclair</p>
@@ -114,7 +110,7 @@
                 </div>
                 <div class="col-6 d-flex flex-row align-items-center justify-content-end">
                     <span class="fs-2 text-light">Powered by</span>
-                    <img src="images/carte_noire.jpg" alt="carte-noire" width="150px" class="img_carte_noire"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/carte_noire.jpg" alt="carte-noire" width="150px" class="img_carte_noire"/>
                 </div>
             </div>
         </div>
