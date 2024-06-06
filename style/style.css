@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Theme Name: team_alpha
 Author: Stéphane
 Description: Theme "team_alpha"
@@ -7,6 +8,13 @@ Version 1.1
 
 
 a {
+=======
+html, body{
+    font-family: 'Roboto';
+}
+
+nav a {
+>>>>>>> Stashed changes
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -40,11 +48,53 @@ a {
 }
 
 .section_1{
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 .inscription{
     background-color: #584641;
+    color: white;
+    padding: 2.5%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.adresse{
+    text-decoration: none;
+}
+
+.adresse:hover{
+    color: #EEECE1;
+}
+
+.inscription i{
+    font-size: 30px;
+}
+
+.formulaire_inscription{
+    width: 500px;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nomprenom{
+    width:350px;
+    background-color: #D9D9D9;
+    margin-bottom: 25px;
+}
+
+.btn_inscription{
+    background-color:#A39E9E;
+    padding: 2%;
+    width: 350px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.btn_inscription:hover{
+    color: #EEECE1;
 }
 
 .presentation{
